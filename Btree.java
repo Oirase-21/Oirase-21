@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Btree
 {
     Node root;
@@ -67,12 +69,15 @@ public  Node findNode(int key){
     public static void main(String[]args )
     {
      Btree thetree = new Btree();
-        thetree.addNode(20,"Speed racer");
-        thetree.addNode(15,"ben burns");
-        thetree.addNode(19,"racer x");
-        thetree.addNode(40,"spritle");
-        thetree.addNode(35,"trixie");
-        thetree.addNode(80,"pops");
+        Scanner  T = new Scanner(System.in);
+
+        System.out.println("Enter the data: ");
+
+        for (int i=0; i<5; i++ )
+        {
+            double D = T.nextDouble();
+            thetree.addNode((int) D,"first");
+        }
 
         thetree.inOrderTrav(thetree.root);
         System.out.println("search for 80");
