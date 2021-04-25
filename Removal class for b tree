@@ -1,0 +1,79 @@
+ public boolean remove(int key)
+    {
+        Node focusNode =root;
+        Node parent =root;
+
+        boolean isleftchild=true;
+        while (focusNode.key != key)
+        {
+            parent=focusNode;
+            if(key<focusNode.key)
+            {
+                isleftchild=true;
+                focusNode =focusNode.leftchild;
+            }
+            else
+            {
+                isleftchild=false;
+                focusNode=focusNode.rightchild;
+            }
+            if (focusNode==null)
+                return false;
+        }
+        if (focusNode.leftchild==null && focusNode.rightchild==null)
+        {
+            if (focusNode==root){
+                root=null;
+            }else if (isleftchild){
+                parent.leftchild=null;
+            }else {
+                parent.rightchild=null;
+            }
+        }
+        else if (focusNode.rightchild==null)
+    {
+        if (focusNode==root)
+            root =focusNode.leftchild;
+        else if (isleftchild)
+            parent.leftchild=focusNode.leftchild;
+        else parent.rightchild=focusNode.leftchild;
+    }
+        else if (focusNode.leftchild==null){
+            if (focusNode==root)
+                root= focusNode.rightchild;
+            else if (isleftchild)
+                parent.leftchild=focusNode.rightchild;
+            else parent.rightchild=focusNode.leftchild;
+        }
+        else {
+            Node replacement = getreNode(focusNode);    //replace node
+            if (focusNode==root)
+                root=replacement;
+
+            else if (isleftchild)
+                parent.leftchild=replacement;
+
+            else
+                parent.rightchild=replacement;
+            replacement.leftchild=focusNode.leftchild;
+        }
+        return true;
+    }
+    public Node getreNode(Node reedNode)
+    {
+        Node replacementParent= reedNode;
+        Node replacement=reedNode;
+
+        Node focusNode=reedNode.rightchild;
+
+        while (focusNode != null){
+            replacementParent = replacement;
+            replacement=focusNode;
+            focusNode=focusNode.leftchild;
+        }
+        if (replacement !=reedNode.rightchild){
+            replacementParent.leftchild=replacement.rightchild;
+            replacement.rightchild= reedNode.rightchild;
+        }
+        return replacement;
+    }
