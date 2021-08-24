@@ -6,6 +6,8 @@
 
 - 📫 How to reach me ... Email: Dbrown26@nyit.edu Phone: 6462560916 
 
+- I am mainly using my github as proof of work and projects done. 
+
 
 <!---
 Oirase-21/Oirase-21 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
