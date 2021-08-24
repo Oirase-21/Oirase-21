@@ -1,12 +1,10 @@
 - 👋 Hi, I’m @Oirase-21
 
-- 👀 I’m interested in ...
-Anime, Videogames, technology and Cars 
+- 👀 I’m interested in Anime, Videogames, technology, and Cars just to give a very broad description.  
 
-- 🌱 I’m currently learning ...
-Java (data structures), javascript, and python 
+- 🌱 I’m currently learning Cyber Security while continuing to expand my knowledge in java.   
 
-- 📫 How to reach me ...
+- 📫 How to reach me ... Email: Dbrown26@nyit.edu Phone: 6462560916 
 
 
 <!---
