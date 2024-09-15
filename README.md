@@ -2,9 +2,9 @@
 
 - 👀 I’m interested in Anime, Videogames, technology, and Cars just to give a very broad description.  
 
-- 🌱 I’m currently learning Cyber Security while continuing to expand my knowledge in java.   
+- 🌱 I’m currently learning Cyber Security while continuing to expand my knowledge in java, python, and SQL   
 
-- 📫 How to reach me ... Email: Dbrown26@nyit.edu Phone: 6462560916 
+- 📫 How to reach me ... Email: Debrown965@gmail.com 
 
 - I am mainly using my github as proof of work and projects done. 
 
