@@ -1,4 +1,4 @@
-- 👋 Hello, I'm Desario Brown (@Oirase-21)
+- 👋 Hello, I'm Desario Brown 
 
 - 👀 I’m interested in Anime, Videogames, technology, and Cars just to give a very broad description.  
 
